@@ -1,0 +1,83 @@
+body {
+    background-color:hsl(185, 75%, 39%) ;
+}
+.color {
+    background-color:hsl(185, 75%, 39%);
+    
+}
+.img-container {
+    /* position: relative; */
+    /* overflow: hidden; */
+    width: 30px;
+    height: auto;
+}
+
+.img-top {
+    width: 550px;
+    margin-left: -200px;
+    z-index: 1;
+}
+.img-bottom {
+    width: 500px;
+    margin-left: 1000px;
+    overflow: hidden;
+    z-index: 1;
+}
+.card {
+    z-index: 10;
+    margin-left: 560px;
+}
+.victor {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: -50px;
+    border: 5px solid #fff;
+}
+strong {
+    margin-right: 20px;
+}
+
+h5 {
+    color: hsl(227, 10%, 46%);
+}
+p {
+    font-size: 12px;
+    color: hsl(227, 10%, 46%);
+
+}
+.flex-container {
+    display: flex;
+}
+.dark {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    
+}
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.very-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+
+
+ 
+.bottom {
+    margin-top: 20px;
+    border-top: 1px solid hsla(227, 10%, 46%, .4);
+}
